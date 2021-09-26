@@ -1,6 +1,6 @@
 = Build your own AI
 
-[quote, to my boy, "tell me, computer" (1983)]
+[quote, to my boy, "tell me, computer (2007)"]
 ____
 Computer, tell me why I am
 
