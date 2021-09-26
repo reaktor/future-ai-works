@@ -1,0 +1,36 @@
+= Build your own AI
+
+[quote, to my boy, "tell me, computer" (1983)]
+____
+Computer, tell me why I am
+
+Not content or in love with
+
+A simple feeling
+
+I ask for I have lost my sense of
+
+Peace and you are extraordinarily clever
+____
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifndef::env-github[]
+:icons: font
+endif::[]
+
+## Overview
+
+Here I'll tell you how to setup your own machine for AI development using Clojure. 
+
+[WARNING]
+.Not ready yet
+====
+The materials are still To Be Done, sorry. Please check back for finished stuff on
+Monday, Oct 11th, at the latest. They'll be here. Pinky promise!
+====
