@@ -28,6 +28,14 @@ endif::[]
 
 This material is for my workshop on crafting AI at link:https://future.works/tech-conference[Future.Works] tech conference.
 
+[IMPORTANT]
+.Come prepared
+====
+Follow the steps below through installation, all the way to running the IDE.
+This ensures that the dependencies are loaded on your machine before
+joining the conference WLAN, which may get congested if we all start downloading at once.
+====
+
 We will investigate General Problem Solver (GPS) in the session. We will implement the GPS in Clojure, and apply it to two example problems:
 
 - link:https://github.com/norvig/paip-lisp/blob/master/docs/chapter4.md#44-stage-4-test[Driving to Nursery School]
