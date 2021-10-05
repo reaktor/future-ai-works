@@ -24,13 +24,49 @@ ifndef::env-github[]
 :icons: font
 endif::[]
 
-## Overview
+== Overview
 
-Here I'll tell you how to setup your own machine for AI development using Clojure. 
+This material is for my workshop on crafting AI at link:https://future.works/tech-conference[Future.Works] tech conference.
 
-[WARNING]
-.Not ready yet
-====
-The materials are still To Be Done, sorry. Please check back for finished stuff on
-Monday, Oct 11th, at the latest. They'll be here. Pinky promise!
-====
+We will investigate General Problem Solver (GPS) in the session. We will implement the GPS in Clojure, and apply it to two example problems:
+
+- link:https://github.com/norvig/paip-lisp/blob/master/docs/chapter4.md#44-stage-4-test[Driving to Nursery School]
+  * link:./src/scenarios/school.clj[School scenario as Clojure data]
+- link:https://github.com/norvig/paip-lisp/blob/master/docs/chapter4.md#412-the-new-domain-problem-monkey-and-bananas[Monkey and Bananas].
+  * link:./src/scenarios/monkey.clj[Bananas scenario as Clojure data]
+
+Our solution will draw inspiration from the GPS implementation in link:https://github.com/norvig/paip-lisp[Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp by Peter Norvig (1992)].
+
+I will code live. Clone this repo to follow along on your own machine.
+
+== Install dev tools
+
+We will be using link:https://clojure.org/[Clojure] in this workshop. You will need Java and either Clojure CLI tools (Mac and Linux) or Leiningen (Windows).
+
+=== Linux and Mac
+
+- Java and JDK (Required)
+* Check that you have at least Java 8 on command line with `java --version`
+* If needed, install Java. OpenJDK works well: https://openjdk.java.net/install/
+- Clojure CLI tools (Required)
+* https://clojure.org/guides/getting_started#_clojure_installer_and_cli_tools
+* Verify that `clj` on command line opens a Clojure prompt. Close with Ctrl+D.
+
+=== Windows
+
+- Install Java and JDK as above.
+- Leiningen (Optional. Required for Windows.)
+* https://leiningen.org/
+
+== Run development environment
+
+We'll use the in-browser IDE link:https://sekao.net/nightlight/[Nightlight] in this workshop.
+
+=== CLI tools (Linux and Mac)
+
+    clj -M -m nightlight.core
+
+=== Leiningen (Windows)
+
+    lein nightlight
+
