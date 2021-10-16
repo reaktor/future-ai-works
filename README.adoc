@@ -78,3 +78,8 @@ We'll use the in-browser IDE link:https://sekao.net/nightlight/[Nightlight] in t
 
     lein nightlight
 
+== Solution
+
+See branch `solution` for example GPS implementation.
+
+You can work forward from the example to build a more general problem solver, following the book we used as reference.
